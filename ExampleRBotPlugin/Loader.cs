@@ -31,7 +31,7 @@ namespace ExampleRBotPlugin
 			// *this may be fixed in the future*
 			Bot.Log("Example Unloaded.");
 			menuItem.Click -= MenuStripItem_Click;
-			Forms.Main.MainMenu.Items.Remove(menuItem);
+			Forms.Main.Plugins.DropDownItems.Remove(menuItem);
 		}
 
 		private void MenuStripItem_Click(object sender, EventArgs e)
